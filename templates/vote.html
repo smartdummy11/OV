@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote</title>
+</head>
+<body>
+    <h2>Cast Your Vote</h2>
+    <form method="POST">
+        <label for="voter_id">Voter ID:</label>
+        <input type="text" name="voter_id" required><br><br>
+
+        <label>Select Candidate:</label><br>
+        <input type="radio" name="candidate" value="Alice" required> Alice<br>
+        <input type="radio" name="candidate" value="Bob"> Bob<br>
+        <input type="radio" name="candidate" value="Charlie"> Charlie<br><br>
+
+        <input type="submit" value="Submit Vote">
+    </form>
+</body>
+</html>
