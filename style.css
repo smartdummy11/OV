@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: "black";
+    text-align: center;
+    padding: 40px;
+}
+.container {
+    background: orange;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+a {
+    display: block;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
